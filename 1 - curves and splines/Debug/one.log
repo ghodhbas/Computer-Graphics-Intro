@@ -1,0 +1,24 @@
+﻿  camera.cpp
+C:\Users\Slim\Desktop\1 - curves and splines\camera.cpp(187,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  curve.cpp
+C:\Users\Slim\Desktop\1 - curves and splines\curve.cpp(62,40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\1 - curves and splines\curve.cpp(70,31): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Slim\Desktop\1 - curves and splines\curve.cpp(133,40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\1 - curves and splines\curve.cpp(139,31): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Slim\Desktop\1 - curves and splines\curve.cpp(186,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+C:\Users\Slim\Desktop\1 - curves and splines\main.cpp(249,48): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\Slim\Desktop\1 - curves and splines\main.cpp(250,48): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+  parse.cpp
+  surf.cpp
+C:\Users\Slim\Desktop\1 - curves and splines\surf.cpp(41,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\1 - curves and splines\surf.cpp(120,34): warning C4018: '>': signed/unsigned mismatch
+  Matrix2f.cpp
+  Matrix3f.cpp
+  Matrix4f.cpp
+  Quat4f.cpp
+  Vector2f.cpp
+  Vector3f.cpp
+  Vector4f.cpp
+  Generating Code...
+  one.vcxproj -> C:\Users\Slim\Desktop\1 - curves and splines\Debug\one.exe

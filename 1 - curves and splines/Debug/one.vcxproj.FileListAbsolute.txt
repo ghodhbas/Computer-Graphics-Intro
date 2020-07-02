@@ -1,0 +1,4 @@
+C:\Users\Slim\Desktop\one\Debug\one.exe
+C:\Users\Slim\Desktop\one\Debug\one.pdb
+C:\Users\Slim\Desktop\1 - curves and splines\Debug\one.exe
+C:\Users\Slim\Desktop\1 - curves and splines\Debug\one.pdb
