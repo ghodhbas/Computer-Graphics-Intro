@@ -1,0 +1,6 @@
+﻿  ClothSystem.cpp
+C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\ClothSystem.cpp(197,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\ClothSystem.cpp(202,43): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\ClothSystem.cpp(260,34): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\ClothSystem.cpp(260,27): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  a3.vcxproj -> C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\Debug\a3.exe
