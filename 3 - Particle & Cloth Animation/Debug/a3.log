@@ -1,6 +1,40 @@
-﻿  ClothSystem.cpp
-C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\ClothSystem.cpp(197,31): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\ClothSystem.cpp(202,43): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\ClothSystem.cpp(260,34): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
-C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\ClothSystem.cpp(260,27): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
-  a3.vcxproj -> C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\Debug\a3.exe
+﻿  camera.cpp
+  ClothSystem.cpp
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\ClothSystem.cpp(197,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\ClothSystem.cpp(202,43): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\ClothSystem.cpp(260,34): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\ClothSystem.cpp(260,27): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  main.cpp
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\main.cpp(38,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\main.cpp(64,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\main.cpp(90,32): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\main.cpp(90,26): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\main.cpp(229,9): warning C4060: switch statement contains no 'case' or 'default' labels
+  particleSystem.cpp
+  pendulumSystem.cpp
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\pendulumSystem.cpp(66,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\pendulumSystem.cpp(87,10): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\pendulumSystem.cpp(104,30): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\pendulumSystem.cpp(104,24): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  simpleSystem.cpp
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\simpleSystem.cpp(34,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\simpleSystem.cpp(39,32): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\simpleSystem.cpp(39,25): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  TimeStepper.cpp
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\TimeStepper.cpp(13,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\TimeStepper.cpp(35,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\TimeStepper.cpp(43,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\TimeStepper.cpp(48,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\TimeStepper.cpp(75,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\TimeStepper.cpp(83,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\TimeStepper.cpp(91,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\TimeStepper.cpp(99,30): warning C4018: '<': signed/unsigned mismatch
+  Matrix2f.cpp
+  Matrix3f.cpp
+  Matrix4f.cpp
+  Quat4f.cpp
+  Vector2f.cpp
+  Vector3f.cpp
+  Vector4f.cpp
+  Generating Code...
+  a3.vcxproj -> C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\Debug\a3.exe

@@ -1,0 +1,8 @@
+- 3d Object classes and their intersection iwth light rays:
+    *Sphere *Plane * Triangle *Group *Transform
+
+-Camera Class: Ray Generation - Perspective Camera - virtual screem (main rendering loop)
+
+- Depth and normal rendering
+
+-Phong Shading - material Shading (Diffuse, Specular, Textures mapping)
