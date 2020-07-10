@@ -1,6 +1,0 @@
-C:\Users\Slim\Desktop\distrib\Debug\a3.exe
-C:\Users\Slim\Desktop\distrib\Debug\a3.pdb
-C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\Debug\a3.exe
-C:\Users\Slim\Desktop\3 - Particle & Cloth Animation\Debug\a3.pdb
-C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\Debug\a3.exe
-C:\Users\Slim\Desktop\Computer-Graphics-Intro\3 - Particle & Cloth Animation\Debug\a3.pdb

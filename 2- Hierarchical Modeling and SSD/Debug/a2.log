@@ -1,6 +1,0 @@
-﻿  SkeletalModel.cpp
-C:\Users\Slim\Desktop\Hier Mod & SSD\SkeletalModel.cpp(99,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Slim\Desktop\Hier Mod & SSD\SkeletalModel.cpp(117,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Slim\Desktop\Hier Mod & SSD\SkeletalModel.cpp(167,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Slim\Desktop\Hier Mod & SSD\SkeletalModel.cpp(190,20): warning C4018: '<': signed/unsigned mismatch
-  a2.vcxproj -> C:\Users\Slim\Desktop\Hier Mod & SSD\Debug\a2.exe
