@@ -6,10 +6,6 @@
 #include "Ray.h"
 #include "Hit.h"
 
-#include <windows.h>
-#include <WinBase.h>
-#include <winnt.h>
-
 Renderer::Renderer(const char* filename) :
 	_sp(filename)
 {
@@ -55,7 +51,7 @@ Renderer::Render(int width,
             Ray ray = camera->generateRay(Vector2f(-1.f + x_step * i, -1.f + y_step * j));
             Hit hit = Hit();
             //color
-            Vector3f color = ambientLight;
+            Vector3f color = Vector3f::ZERO;
             Vector3f depth = Vector3f::ZERO;
             Vector3f n = Vector3f::ZERO;
             //intersect ray with main group
@@ -72,25 +68,32 @@ Renderer::Render(int width,
                 //    color = color * mat->getTexture()(hit.texCoord[0], hit.texCoord[1]);
                 //}
                 //else {
-                    color = color * mat->getDiffuseColor();
+                    
                 //}
 
-                //light
+                //Direct Lighitng Illumination
                 for (size_t i = 0; i < _sp.getNumLights(); i++)
                 {
                     Light* l = _sp.getLight(i);
                     Vector3f dir_toLight;
                     Vector3f light_color;
-                    float distance_toLight;
+                    float distance_toLight = FLT_MAX;
+                    //distance to light
                     l->getIllumination(p, dir_toLight, light_color, distance_toLight);
                     //shade - diffuse + specular
-                    color += mat->Shade(ray, hit, dir_toLight, light_color);
+                    color += mat->Shade(ray, hit, dir_toLight, light_color) ;
                 }
+
+                //ambient -- should de
+                color += ambientLight * mat->getDiffuseColor() ;
+
+
+                //compute indirect lighting - path tracing?
+
 
 
                 //REGULAR RENDER
                 image.SetPixel(i, j, color);
-
 
                 //DEPTH IMAGE RENDER
                 if (t >= minDepth && t <= maxDepth) {

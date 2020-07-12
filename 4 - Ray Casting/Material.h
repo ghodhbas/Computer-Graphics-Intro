@@ -37,16 +37,19 @@ public:
      
       Vector3f textureColor = diffuseColor;
       //check for texture
-      if (t.valid()) {
+      if (t.valid() && hit.hasTex) {
           textureColor = t(hit.texCoord[0], hit.texCoord[1]);
       }
+
+      Vector3f n = hit.getNormal().normalized();
       //reflection dir
-      Vector3f R =  ray.getDirection() - 2.f * (Vector3f::dot(ray.getDirection(), hit.getNormal())) * hit.getNormal();
+      Vector3f R =  ray.getDirection() - 2.f * (Vector3f::dot(ray.getDirection(), n)) * n;
+      //specular
       Vector3f spec = specularColor * std::pow(std::max(0.f, Vector3f::dot(dirToLight, R)), shininess);
-      Vector3f diff = textureColor * std::max(0.f, Vector3f::dot(hit.getNormal(), dirToLight));
+      //diffuse
+      Vector3f diff = textureColor * std::max(0.f, Vector3f::dot(dirToLight, n));
       
-     
-      return  (diff + spec) * lightColor;
+      return  (diff + spec) * lightColor ;
 		
   }
 
