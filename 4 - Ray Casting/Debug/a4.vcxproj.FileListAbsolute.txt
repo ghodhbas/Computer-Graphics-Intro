@@ -1,2 +1,0 @@
-C:\Users\Slim\Desktop\Computer-Graphics-Intro\4 - Ray Casting\Debug\a4.exe
-C:\Users\Slim\Desktop\Computer-Graphics-Intro\4 - Ray Casting\Debug\a4.pdb

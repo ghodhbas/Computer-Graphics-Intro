@@ -20,7 +20,7 @@ public:
     }
 
     virtual void getIllumination( const Vector3f& p, Vector3f& dir, Vector3f& col, float& distanceToLight ) const = 0;
-    
+
 };
 
 class DirectionalLight : public Light
@@ -76,12 +76,10 @@ public:
         // the direction to the light is the opposite of the
         // direction of the directional light source
 		dir = (position-p);
-        distanceToLight = dir.abs();
 		dir = dir/dir.abs();
         col = color;
     }
 
-    
 private:
 
     PointLight(); // don't use
