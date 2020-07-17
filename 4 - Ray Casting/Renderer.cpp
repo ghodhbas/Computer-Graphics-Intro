@@ -6,10 +6,6 @@
 #include "Ray.h"
 #include "Hit.h"
 
-#include <windows.h>
-#include <WinBase.h>
-#include <winnt.h>
-
 Renderer::Renderer(const char* filename) :
 	_sp(filename)
 {
@@ -27,13 +23,6 @@ Renderer::Render(int width,
     const std::string& depthFilename,
     const std::string& normalFilename)
 {
-
-    //implement shading and rendering
-    // First, parse the scene using SceneParser.
-    // Then loop over each pixel in the image, shooting a ray
-    // through that pixel and finding its intersection with
-    // the scene.  Write the color at the intersection to that
-    // pixel in your output image.
 
     //-sp contains all scene data
     Image image = Image(width, height);
@@ -65,15 +54,8 @@ Renderer::Render(int width,
                 Vector3f p = ray.pointAtParameter(t);
                 //material
                 Material* mat = hit.getMaterial();
-
-                // add ambient light --- might need to be fixed (change diffuse color to K_a)
-                //if (hit.hasTex && mat->getTexture().valid() ) {
-                //    // add ambient to texture
-                //    color = color * mat->getTexture()(hit.texCoord[0], hit.texCoord[1]);
-                //}
-                //else {
-                    color = color * mat->getDiffuseColor();
-                //}
+                //ambient light
+                color = color * mat->getDiffuseColor();
 
                 //light
                 for (size_t i = 0; i < _sp.getNumLights(); i++)
