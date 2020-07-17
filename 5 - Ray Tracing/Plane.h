@@ -6,8 +6,7 @@
 #include <cmath>
 
 using namespace std;
-///TODO: Implement Plane representing an infinite plane
-///choose your representation , add more fields and fill in the functions
+
 class Plane : public Object3D
 {
 public:

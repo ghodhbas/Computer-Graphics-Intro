@@ -32,6 +32,7 @@ public:
 
 	void setNoise(const Noise& n);
 	Texture t;
+
 protected:
 	Vector3f diffuseColor;
 	float refractionIndex;

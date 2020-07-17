@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommandArguments>-input scene11_cube.txt -size 300 300 -output out.bmp -bounces 2 -shadows -jitter</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-input scene11_cube.txt -size 600 600 -output out.bmp -bounces 2 -shadows -depth 2 40 output_d.bmp -normals output_n.bmp -jitter -filter </LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LocalDebuggerCommandArguments>-input scene11_cube.txt -size 300 300 -output out.bmp -bounces 2 -shadows -jitter</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-input scene11_cube.txt -size 600 600 -output out.bmp -bounces 2 -shadows -depth 2 40 output_d.bmp -normals output_n.bmp -jitter -filter </LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>

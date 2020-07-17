@@ -30,17 +30,6 @@ int main(int argc, char* argv[])
 	srand(static_cast <unsigned> (time(0)));
 
 	ArgParser parser(argc, argv);
-
-	Renderer renderer(parser.input_file);
-	renderer.render(parser.width, parser.height,
-		parser.bounces,
-		parser.output_file, parser.shadows,
-		parser.jitter);
-
-	//renderer.Render(parser.width, parser.height,
-	//	parser.bounces,
-	//	parser.output_file,
-	//	parser.depth_min, parser.depth_max,
-	//	parser.depth_file,
-	//	parser.normals_file);
+	Renderer renderer(parser);
+	renderer.render();
 }

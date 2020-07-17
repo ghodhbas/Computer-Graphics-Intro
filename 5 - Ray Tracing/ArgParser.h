@@ -70,8 +70,8 @@ public:
 		// rendering output
 		input_file = NULL;
 		output_file = NULL;
-		depth_file = NULL;
-		normals_file = NULL;
+		depth_file = "";
+		normals_file = "";
 		width = 100;
 		height = 100;
 		stats = 0;
@@ -79,7 +79,7 @@ public:
 		// rendering options
 		depth_min = 0;
 		depth_max = 1;
-		bounces = 4;
+		bounces = 2;
 		shadows = 0;
 
 		// sampling

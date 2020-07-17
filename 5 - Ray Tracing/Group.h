@@ -8,9 +8,6 @@
 
 using  namespace std;
 
-///TODO:
-///Implement Group
-///Add data structure to store a list of Object*
 class Group :public Object3D
 {
 public:

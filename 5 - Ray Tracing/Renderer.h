@@ -10,16 +10,12 @@ class Renderer
 {
 public:
 	// Instantiates a renderer for the given scene.
-	Renderer(const char* filename);
+	Renderer(ArgParser& parser);
 
 	~Renderer();
 
 	// If depthFilename is empty, a depth image is not generated.
-	void render(int width,
-		int height,
-		int max_bounces,
-		const std::string& outputFilename,
-		int shadows, int jitter);
+	void render();
 
 	// Same for normalFilename and the normal image.
 	void Render(int width,
@@ -33,6 +29,7 @@ public:
 
 private:
 	SceneParser _sp;
+	ArgParser argparser;
 };
 
 #endif // RENDERER_H
