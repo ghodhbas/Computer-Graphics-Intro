@@ -1,0 +1,9 @@
+-Ray tracing: added reflection and refraction of light by generating new light rays and tracing them
+
+-Shadows: generate rays toward light source and if they are blocked the light influence is not added
+
+-Perlin Noise for marble looking Material
+
+-Antialiasing using : jittering (supersampling and randomizing the ray)
+                      Gaussian Blur
+                      Down-Sampling
