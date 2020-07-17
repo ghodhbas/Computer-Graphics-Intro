@@ -12,3 +12,7 @@
 
 5 - Ray Tracing/Debug
 5 - Ray Tracing/.vs/a5/v16/Browse.VC.opendb
+*.db-wal
+*.db
+*.db-shm
+5 - Ray Tracing/.vs/a5/v16/.suo
